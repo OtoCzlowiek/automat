@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium|Nabla&effect=neon');
+
+* {scrollbar-width: thin;
+        scrollbar-color: silver #222233;}
+
+body {margin: 0;
+        padding: 0;
+        font-family: 'Oxanium', Courier, monospace;
+        font-weight: 800;
+        color: #224499;
+        background-color: #222233;}
+
+header {text-align: center;
+        height: auto;
+        background: linear-gradient(90deg, rgba(34,51,65,1) 0%, rgba(34,68,153,1) 50%, rgba(34,51,65,1) 100%);
+        padding: 5px 0 5px 0;
+        margin: 0 0 20px 0;
+        color: white;
+        font-family: 'Nabla', Courier, monospace;}
+
+main {background-color: #222233;
+        border: 5px silver solid;
+        border-radius: 20px;
+        width: 50%;
+        padding: 10px;
+        float: left;
+        margin-left: 3vw;
+        margin-bottom: 10px;
+        text-align: center;}
+
+aside {background-color: silver;
+        border: 2px #224499 solid;
+        border-radius: 20px;
+        width: 30%;
+        padding: 10px;
+        right: 3vw;
+        position: fixed;
+        color: black;
+        text-align: center;}
+
+article {background-color: silver;
+        border: 2px #224499 solid;
+        border-radius: 20px;
+        width: 30%;
+        padding: 10px;
+        right: 3vw;
+        top: 25vw;
+        position: fixed;
+        color: black;
+        text-align: center;}
+
+        article > img {width: 60%;
+                        height: auto;}
+
+footer {background: linear-gradient(90deg, rgba(34,51,65,1) 0%, rgba(34,68,153,1) 100%);
+        width: 100%;
+        clear: both;
+        text-align: end;}
+
+img {height: 40%;
+        background-color: #ffeedd;
+        border-radius: 20px;
+        border: 1px lightgray solid;
+        box-shadow: 10px -10px 10px #222233}
+
+.prod {background-color: silver;
+        padding-top: 2vh;
+        border-radius: 20px;
+        border: 2px silver solid;
+        margin: 5px;
+        width: 46%;
+        float: left;
+        height: 30vh;}
+
+span {font-size: 150%;}
+
+button {width: 50px;
+        height: 30px;
+        font-family: 'Oxanium', Courier, monospace;
+        margin: 5px;
+        background-color: #224499;
+        border: #222233;
+        border-radius: 5px;
+        transition-duration: 0.5s;}
+
+        button:hover {width: 90px;
+                        background-color: #222233;
+                        transition-duration: 0.5s;
+                        color: pink;}
+
+#long {width: auto;}
+
+input {background-color: #ffeedd;
+        border: #222233;
+        width: 50px;
+        border-radius: 5px;
+        transition-duration: 0.5s;}
+
+        input:hover {width: 90px;
+                        background-color: #222233;
+                        transition-duration: 0.5s;
+                        color: pink;}
+                        
+.uzup {width: 90px;}
+
+button {align-self: center;}
+
+h1 {font-size: 300%;
+        margin: 2vh;}
+
+h3 {margin: 1vh;}
+
+h4 {font-size: 120%;
+        margin: 2vh;}
+
+.update {display: flex;
+        flex-direction: column;}
+
+        .update button {width: 90px;}
+
+        .update input {background-color: #ffeedd;
+                        color: #222233;
+                        transition-duration: 0.5s;
+                        width: 2em;
+                        font-size: 150%;}
+
+        .update input:hover {background-color: #222233;
+                                color: pink;
+                                transition-duration: 0.5s;
+                                width: 2em;}
